@@ -17,7 +17,7 @@ setuptools.setup(
     version=__version__,
     author=AUTHOR_USER_NAME,
     author_email=AUTHOR_EMAIL,
-    description="BlogBuddyAI: Your Smart Companion for Effortless Blogging",
+    description="BlogBuddyAI: AI Blogging Companion",
     url=f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}",
     project_urls={
         "Bug Tracker": f"https://github.com/{AUTHOR_USER_NAME}/{REPO_NAME}/issues",
