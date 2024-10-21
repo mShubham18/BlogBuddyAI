@@ -1,0 +1,5 @@
+[2024-10-21 16:02:56,444: INFO: sample Initialized repository]
+[2024-10-21 16:24:46,472: INFO: sample 2nd log]
+[2024-10-21 16:40:16,629: ERROR: exception Error occurred in Python Script name [c:\Users\Bhupendra\Blogging Assistant\test.py] line number [5] error message [A custom exception occurred]]
+[2024-10-21 16:40:57,090: ERROR: exception Error occurred in Python Script name [c:\Users\Bhupendra\Blogging Assistant\test.py] line number [5] error message [division by zero]]
+[2024-10-21 16:42:55,319: ERROR: exception Error occurred in Python Script name [c:\Users\Bhupendra\Blogging Assistant\test.py] line number [3] error message [division by zero]]
