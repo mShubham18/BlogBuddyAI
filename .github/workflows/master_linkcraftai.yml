@@ -38,7 +38,7 @@ jobs:
       - name: Upload artifact for deployment jobs
         uses: actions/upload-artifact@v4
         with:
-          name: python-app
+          name: LinkCraftAI
           path: |
             release.zip
             !venv/
@@ -56,7 +56,7 @@ jobs:
       - name: Download artifact from build job
         uses: actions/download-artifact@v4
         with:
-          name: python-app
+          name: LinkCraftAI
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
@@ -72,7 +72,7 @@ jobs:
         uses: azure/webapps-deploy@v3
         id: deploy-to-webapp
         with:
-          app-name: 'linkcraftai'
+          app-name: 'LinkCraftAI'
           slot-name: 'production'
 
       # Add your API keys here
