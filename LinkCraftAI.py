@@ -1,12 +1,10 @@
 from lib.libraries import *
-#from apikey import google_gemini_api_key, UNSPLASH_ACCESS_KEY
+from apikey import google_gemini_api_key, UNSPLASH_ACCESS_KEY
 import requests
 import json
 from src.BlogBuddyAI.components.unsplash_fetch import fetch_unsplash_images
 from src.BlogBuddyAI.components.gemini_fetch import generation_config,model
 
-google_gemini_api_key = os.getenv('GOOGLE_GEMINI_API_KEY')
-UNSPLASH_ACCESS_KEY = os.getenv('UNSPLASH_ACCESS_KEY')
 # API Setup
 genai.configure(api_key=google_gemini_api_key)
 
