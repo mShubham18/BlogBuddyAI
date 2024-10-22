@@ -3,3 +3,7 @@
 [2024-10-21 16:40:16,629: ERROR: exception Error occurred in Python Script name [c:\Users\Bhupendra\Blogging Assistant\test.py] line number [5] error message [A custom exception occurred]]
 [2024-10-21 16:40:57,090: ERROR: exception Error occurred in Python Script name [c:\Users\Bhupendra\Blogging Assistant\test.py] line number [5] error message [division by zero]]
 [2024-10-21 16:42:55,319: ERROR: exception Error occurred in Python Script name [c:\Users\Bhupendra\Blogging Assistant\test.py] line number [3] error message [division by zero]]
+[2024-10-22 12:58:43,046: WARNING: _metadata Compute Engine Metadata server unavailable on attempt 1 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network]
+[2024-10-22 12:58:44,130: WARNING: _metadata Compute Engine Metadata server unavailable on attempt 2 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network]
+[2024-10-22 12:58:46,329: WARNING: _metadata Compute Engine Metadata server unavailable on attempt 3 of 3. Reason: [WinError 10051] A socket operation was attempted to an unreachable network]
+[2024-10-22 12:58:46,329: WARNING: _default Authentication failed using Compute Engine authentication due to unavailable metadata server.]

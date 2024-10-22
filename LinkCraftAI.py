@@ -108,7 +108,7 @@ a:hover, a:active {
 }
 </style>
 <div class="footer">
-<p>Developed with ❤ by <a href="https://github.com/mShubham18/" target="_blank"> Shubham Mishra</a></p>
+<p>Developed with ❤ by <a href="https://github.com/mShubham18/LinkCraftAI" target="_blank"> Shubham Mishra</a></p>
 </div>
 """
 
