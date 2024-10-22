@@ -64,3 +64,52 @@ if submit_button:
                     st.image(img['urls']['small'], caption=f"Generated Image {idx + 1}")
             else:
                 st.error("No images were returned.")
+
+footer = """<style>
+:root {
+    --footer-text-color: black; /* Light mode text color */
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --footer-text-color: white; /* Dark mode text color */
+    }
+}
+
+a:link, a:visited {
+    color: blue;
+    text-decoration: underline;
+}
+
+a:hover, a:active {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: var(--footer-text-color);
+    text-align: center;
+    background-color: transparent; /* Make background transparent */
+    font-size: 14px;
+}
+
+.footer p {
+    display: inline;
+}
+
+.footer a {
+    display: inline; /* Ensure the link is inline */
+    color: var(--footer-text-color);
+}
+</style>
+<div class="footer">
+<p>Developed with ❤ by <a href="https://github.com/mShubham18/" target="_blank"> Shubham Mishra</a></p>
+</div>
+"""
+
+st.markdown(footer, unsafe_allow_html=True)
